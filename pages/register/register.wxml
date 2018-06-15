@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class='islogin'>
+  <image class='brand' mode='aspectFit' src='/images/icon/brand.png'></image>
+  <text class='name'>TimeCard</text>
+  <text class='motto'>记录生活   记录美好</text>
+  <text class='motto-english'>不忘时间</text>
+  <button class='login' open-type="getUserInfo" bindgetuserinfo="click">微信登录</button>
+</view>
